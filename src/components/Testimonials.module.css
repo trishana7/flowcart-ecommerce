@@ -1,0 +1,126 @@
+.section {
+  padding: 100px 0;
+  position: relative;
+  background-color: rgba(7, 9, 14, 0.4);
+  overflow-hidden: true;
+}
+
+.titleWrapper {
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.subtitle {
+  font-size: 12px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: var(--primary-color);
+  letter-spacing: 2px;
+  margin-bottom: 8px;
+}
+
+.title {
+  font-family: var(--font-outfit), sans-serif;
+  font-size: 36px;
+  font-weight: 700;
+  color: var(--text-primary);
+}
+
+.sliderContainer {
+  max-width: 800px;
+  margin: 0 auto;
+  position: relative;
+  min-height: 280px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card {
+  padding: 40px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  border-radius: var(--radius-lg);
+  width: 100%;
+}
+
+@media (max-width: 500px) {
+  .card {
+    padding: 24px;
+  }
+}
+
+.stars {
+  display: flex;
+  gap: 4px;
+  color: var(--primary-color);
+}
+
+.quote {
+  font-size: 18px;
+  line-height: 1.6;
+  font-weight: 400;
+  color: var(--text-primary);
+  max-width: 600px;
+  font-style: italic;
+}
+
+.authorWrapper {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-top: 8px;
+}
+
+.avatar {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 1px solid var(--primary-color);
+}
+
+.authorInfo {
+  text-align: left;
+}
+
+.name {
+  font-weight: 600;
+  font-size: 15px;
+  color: var(--text-primary);
+}
+
+.role {
+  font-size: 12px;
+  color: var(--text-muted);
+}
+
+.controls {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  margin-top: 32px;
+}
+
+.controlBtn {
+  background-color: transparent;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  color: var(--text-secondary);
+  cursor: pointer;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: var(--transition-smooth);
+}
+
+.controlBtn:hover {
+  border-color: var(--border-hover);
+  color: var(--text-primary);
+  background-color: rgba(255, 255, 255, 0.02);
+}
