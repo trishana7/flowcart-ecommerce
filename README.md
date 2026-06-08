@@ -1,8 +1,10 @@
 # FlowCart E-Commerce Landing Page & Dashboard
 
 FlowCart is a modern premium lifestyle e-commerce web application featuring high-end design aesthetics, fluid scroll-triggered and stagger animations, local state persistence, and mock server-side endpoints.
-🌐 Live Demo: https://flowcart-ecommerce.vercel.app/ 
-📊 Dashboard: https://flowcart-ecommerce.vercel.app/dashboard
+
+- 🌐 Live Demo: https://flowcart-ecommerce.vercel.app/ 
+- 📊 Dashboard: https://flowcart-ecommerce.vercel.app/dashboard
+
 ---
 
 ## 🛠️ Technology Stack
