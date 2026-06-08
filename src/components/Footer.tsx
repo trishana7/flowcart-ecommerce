@@ -53,13 +53,17 @@ export default function Footer() {
     setEmail('');
   };
 
+  const handleLogoClick = () => {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  };
+
   return (
     <footer className={styles.footer}>
       <div className="container">
         <div className={styles.grid}>
           {/* Brand Info */}
           <div className={styles.brandCol}>
-            <div className={styles.logo}>
+            <div className={styles.logo} onClick={handleLogoClick} role="button" tabIndex={0} style={{ cursor: 'pointer' }}>
               FlowCart<span className={styles.logoDot}></span>
             </div>
             <p className={styles.brandDesc}>
